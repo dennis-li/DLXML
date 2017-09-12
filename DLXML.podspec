@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DLXML"
-s.version      = "0.0.3"
+s.version      = "0.0.4"
   s.summary      = "DLXML"
   s.description  = <<-DESC
 	                    React description.
