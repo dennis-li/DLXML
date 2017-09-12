@@ -33,6 +33,7 @@
         } else {
             return nil;
         }
+	NSLog(@"master");
     }
     return self;
 }
