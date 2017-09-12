@@ -71,8 +71,8 @@ verifyOperation "${podName} pod lib lint 出错！请检查podspec！！"
 #将改动推到远程仓库并创建新的分支
 git add .
 git commit -m "auto create new branch"
+git push
 git tag -a $newVersion -m  "${podName} v$newVersion"
-git push 
 verifyOperation "${podName}创建新的tag => $newVersion 失败!!!"
 git push origin $newVersion
 verifyOperation "${podName}创建新的tag => $newVersion 失败!!!"
