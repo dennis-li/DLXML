@@ -81,7 +81,7 @@ verifyOperation "${podName}创建新的tag => $newVersion 失败!!!"
 pod repo update DennisRepos
 verifyOperation "更新私有pod库失败!!!" "更新私有pod库成功!!!"
 
-pod repo push DennisRepos ${podName}.podspec --verbose --use-libraries --allow-warnings
+pod repo push DennisRepos ${podName}.podspec --verbose --allow-warnings
 verifyOperation "更新私有库信息失败" "更新私有库信息成功"
 
 niceMessage "更新${podName} pod 成功！！！"
