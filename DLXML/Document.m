@@ -39,6 +39,7 @@
         _version = [version copy];
         _encoding = [encoding copy];
         _root = root;
+	NSLog(@"1.9.5");
     }
     return self;
 }
